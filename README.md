@@ -18,8 +18,28 @@ sudo useradd -m -s /bin/bash -g users
 sudo apt-get install python-software-properties
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
-
 sudo apt-get install oracle-java8-installer
+```
+
+## Installing LAMP
+### Installing Apache
+```
+sudo apt-get update
+sudo apt-get install apache2
+```
+### Installing PHP
+```
+sudo add-apt-repository ppa:ondrej/php
+sudo apt-get update
+sudo apt-get install php5.6
+```
+### Installing Mysql
+```
+sudo apt-get install mysql-server
+```
+### Installing phpmyadmin
+```
+sudo apt-get install phpmyadmin
 ```
 
 
