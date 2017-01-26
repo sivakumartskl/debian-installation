@@ -41,5 +41,12 @@ sudo apt-get install mysql-server
 ```
 sudo apt-get install phpmyadmin
 ```
+### Installing Sublime text
+```
+sudo add-apt-repository ppa:webupd8team/sublime-text-2.
+sudo apt-get update.
+sudo apt-get --purge remove sublime-text*
+sudo apt-get install sublime-text.
+```
 
 
