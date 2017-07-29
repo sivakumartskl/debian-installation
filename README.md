@@ -49,4 +49,9 @@ sudo apt-get --purge remove sublime-text*
 sudo apt-get install sublime-text.
 ```
 
+### Installing cakePHP
+```
+https://askubuntu.com/questions/628938/how-to-install-cakephp-in-ubuntu-14-04
+```
+
 
